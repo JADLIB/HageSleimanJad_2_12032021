@@ -1,15 +1,61 @@
 <!DOCTYPE html>
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="utf-8" />
     <title>Reservia</title>
-</head>
-<body>
+    <link href="css/fontawesome-free-5.15.2-web/css/all.css" rel="stylesheet" />
+    <link type="text/css" rel="stylesheet" href="css/styles.css" />
+    <link
+      rel="stylesheet"
+      media="screen and (max-width: 1280px)"
+      href="css/responsive.css"
+    />
+  </head>
+  <body>
+    <nav>
+      <div class="logo">
+        <img
+          src="../Projet 2 OC - Reservia/media/Reservia.svg"
+          alt="Logo Reservia"
+        />
+        <li class="subresponsive"><a href="#">S'inscrire</a></li>
+      </div>
+      <div class="nav">
+      <ul>
+        <li><a class="active" href="#">Hébergements</a></li>
+        <li><a href="#">Activités</a></li>
+        <li><a class="sub" href="#">S'inscrire</a></li>
+      </ul>
+    </div>
+    </nav>
+    <main>
+      <div class="title">
+        <h1>
+          Trouver votre hébergement pour des vacances de rêve
+          <p>En plein centre ville ou en pleine nature</p>
+        </h1>
+        
+      </div>
+      <div class="local">
+        <i class="fas fa-map-marker-alt"></i>
+        <input
+          class="localisation"
+          type="search"
+          placeholder="Marseille, Paris"/>
 
-        <h1>Reservia</h1>
-    
-</body>
+        <button>Rechercher</button>
+      </div>
+
+      <div class="filter">
+        <h3>Filtres</h3>
+        
+        <button><i class="fas fa-money-bill-wave-alt"></i> Economique</button>
+        <button><i class="fas fa-child"></i> Familial</button>
+        <button><i class="fas fa-heart"></i> Romantique</button>
+        <button><i class="fas fa-dog"></i> Animaux autorisés</button>
+      </div>
+
+    </main>
+  </body>
 </html>
