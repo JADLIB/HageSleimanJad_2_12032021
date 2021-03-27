@@ -1,100 +1,91 @@
-
-
-@media screen and (max-width: 1280px)
-{
-
+@media screen and (max-width: 1280px) {
 }
 
-@media screen and (max-width: 812px){
-
-html{
+@media screen and (max-width: 812px) {
+  html {
     display: flex;
-}
-nav{
+  }
+  nav {
     display: inline;
     justify-content: center;
-}
+  }
 
 .sub{
-    display: none;
-}
-.subresponsive{
-    display: flex;
-    
+  display: flex;
+  order: 4;
+  flex-wrap: wrap-reverse;
 }
 
-.logo{
+
+  .subresponsive {
+    display: flex;
+  }
+
+  .logo {
     display: flex;
     align-items: center;
     justify-content: space-around;
-}
+  }
 
-ul{
+  ul {
     align-items: center;
-    justify-content:center;
-    
-    
-}
+    justify-content: center;
+  }
 
-ul li a{
+  ul li a {
     color: black;
     text-decoration: none;
-}
+  }
 
-main{
+  main {
     display: flex;
     flex-direction: column;
-}
+  }
 
-h1{
+  h1 {
     justify-content: space-around;
     align-items: center;
     font-size: 10px;
-}
+  }
 
-.local{
+  .searchbar {
     display: flex;
     flex-direction: row;
     justify-content: center;
-}
+    align-items: center;
+  }
 
-.active{
-    border-bottom: 5px solid #0065FC;
+  .active {
+    border-bottom: 5px solid #0065fc;
     border-top: none;
     padding-bottom: 20px;
-}
+  }
 
-.title{
+  .title {
     display: flex;
     margin-top: 20px;
     justify-content: center;
-}
+  }
 
-.nav{
+  .nav {
     display: flex;
-}
+  }
 
-
-.localisation {
+  .localisation {
     height: 35px;
     border-right: none;
     border-left: none;
     padding: 5px;
     border: none;
   }
-  
-button {
+
+  button {
     border-top-right-radius: 10px;
     border-bottom-right-radius: 10px;
-    height: 35px;
+    height: 45px;
     background-color: #0065fc;
     color: white;
     border: none;
-  }
-  
-  .local {
-    display: flex;
-    align-items: center;
   }
 
   i {
@@ -104,4 +95,24 @@ button {
     border-bottom-left-radius: 10px;
   }
 
+  /*******Filter********/
+
+  .filter {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+
+  .filter button {
+    background-color: white;
+    color: black;
+    /* border: solid;
+    border-top-left-radius: 60%;
+    border-bottom-left-radius: 60%; */
+  }
+  .filter button i {
+    color: #0065fc;
+    border-radius: 50%;
+    background-color: #deebff;
+  }
 }
