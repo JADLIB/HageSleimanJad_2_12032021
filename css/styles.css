@@ -6,7 +6,9 @@
   font-family: "Raleway", sans-serif;
 }
 body {
-  width: auto;
+  display: flex;
+  justify-content: center;
+  max-width: 1900px;
 }
 
 /*******NAVBAR********/
