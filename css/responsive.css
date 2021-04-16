@@ -4,9 +4,10 @@
 @media screen and (max-width: 812px) {
   html {
     display: flex;
+    justify-content: center;
   }
 
-  ul li a {
+  a {
     color: black;
     text-decoration: none;
   }
@@ -53,29 +54,39 @@
     align-content: flex-start;
   }
 
-  nav {
+  /* nav {
     display: flex;
     width: 100%;
-    flex-wrap: nowrap;
+    box-sizing: border-box;
+    order: 2;
+  } */
+
+  .navi {
+    display: flex;
+    /* flex-wrap: wrap; */
+    width: 100%;
+    order: 4;
+    justify-content: space-between;
   }
 
-  /**Responsive width bon, mais le menu crée un dépassement***/
+  .nav div {
+    padding: 15px 10px 0px 10px;
+  }
 
   .nav {
     display: flex;
     flex-wrap: wrap;
+    flex-direction: row-reverse;
+    width: 100%;
+    justify-content: flex-end;
   }
 
   header {
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
   }
 
-  ul {
-    display: flex;
-    justify-content: flex-start;
-    flex-direction: row-reverse;
-  }
   .localisation {
     height: 35px;
     border-right: none;
@@ -188,5 +199,9 @@
     color: #0065fc;
     border-radius: 50%;
     background-color: #deebff;
+  }
+
+  .bloc3 {
+    flex-direction: column;
   }
 }
