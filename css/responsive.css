@@ -7,9 +7,14 @@
     justify-content: center;
   }
 
+  body {
+    display: flex;
+    flex-direction: column;
+  }
   a {
     color: black;
     text-decoration: none;
+    padding-bottom: 12px;
   }
 
   main {
@@ -20,19 +25,19 @@
   h1 {
     justify-content: space-around;
     align-items: center;
-    font-size: 10px;
+    font-size: 20px;
+    line-height: 20px;
   }
 
   .title {
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin-top: 44px;
   }
 
   .title p {
-    justify-content: space-around;
-    align-items: center;
-    font-size: 10px;
+    font-size: 15px;
   }
 
   .searchbar {
@@ -42,31 +47,45 @@
     align-items: center;
   }
 
-  .active {
-    border-bottom: 5px solid #0065fc;
-    border-top: none;
-    padding-bottom: 20px;
-  }
-
   .title {
     display: flex;
     margin-top: 20px;
     align-content: flex-start;
   }
 
-  /* nav {
+  nav {
     display: flex;
+    flex-wrap: wrap;
     width: 100%;
-    box-sizing: border-box;
-    order: 2;
-  } */
+    justify-content: space-evenly;
+  }
 
-  .navi {
+  .active {
     display: flex;
-    /* flex-wrap: wrap; */
-    width: 100%;
-    order: 4;
-    justify-content: space-between;
+    border-bottom: 5px solid #0065fc;
+    border-top: none;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    width: 45%;
+    justify-content: center;
+  }
+
+  .active a {
+    color: #0065fc;
+  }
+
+  .unactive {
+    display: flex;
+    border-bottom: 5px solid #f5f5f5;
+    border-top: none;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    width: 45%;
+    justify-content: center;
+  }
+
+  .sub {
+    font-weight: 800;
   }
 
   .nav div {
@@ -76,9 +95,10 @@
   .nav {
     display: flex;
     flex-wrap: wrap;
-    flex-direction: row-reverse;
     width: 100%;
-    justify-content: flex-end;
+    order: 2;
+    justify-content: space-evenly;
+    padding-bottom: 20px;
   }
 
   header {
@@ -201,7 +221,30 @@
     background-color: #deebff;
   }
 
+  /*******Activité********/
+  /*********************/
+
   .bloc3 {
+    display: flex;
+    background-color: #f5f5f5;
+    border-radius: 15px;
+    padding: 20px;
+    margin-right: 0;
+    margin-bottom: 10px;
+    width: auto;
+    margin-top: 225px;
+    flex-direction: column;
+  }
+
+  .bloc3 img {
+    height: 300px;
+    width: 100%;
+  }
+
+  /**********FOOTER***********/
+
+  .footerall {
+    display: flex;
     flex-direction: column;
   }
 }
