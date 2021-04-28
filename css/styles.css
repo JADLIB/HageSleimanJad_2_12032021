@@ -31,7 +31,7 @@ nav {
 }
 
 .logo {
-  width: 100%;
+  margin-right: auto;
   display: flex;
   justify-content: flex-start;
 }
@@ -365,4 +365,65 @@ footer {
 .footerall ul {
   text-decoration: none;
   list-style: none;
+}
+
+/*******Refonte Activité********/
+/*******Refonte Activité********/
+/*******Refonte Activité********/
+/*******Refonte Activité********/
+
+.activity {
+  display: flex;
+  column-gap: 20px;
+  row-gap: 20px;
+}
+
+.activity div {
+  display: flex;
+  box-sizing: border-box;
+}
+
+.activity-columns {
+}
+
+.activity-card {
+}
+
+.card-60 {
+  flex-direction: column;
+  flex-basis: 60%;
+}
+
+.card-40 {
+  flex-direction: column;
+  flex-basis: 40%;
+}
+
+.activity-card-img {
+  object-fit: cover;
+  display: flex;
+  flex-direction: column;
+  row-gap: 20px;
+}
+
+.activity img {
+  height: 100%;
+  width: 100%;
+  border-top-left-radius: 40px;
+  border-top-right-radius: 40px;
+  object-fit: cover;
+}
+
+.activity-card-title {
+  box-shadow: 6px 7px 14px -8px rgba(0, 0, 0, 0.75);
+  border-bottom-left-radius: 40px;
+  border-bottom-right-radius: 40px;
+}
+
+.activity-card-title h5 {
+  padding-left: 30px;
+  padding-bottom: 20px;
+  font-size: 20px;
+  margin: 0;
+  margin-top: 10px;
 }

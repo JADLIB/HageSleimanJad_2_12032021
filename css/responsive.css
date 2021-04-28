@@ -6,7 +6,9 @@
     display: flex;
     justify-content: center;
   }
-
+  .logo {
+    margin-right: auto;
+  }
   body {
     display: flex;
     flex-direction: column;
@@ -234,6 +236,7 @@
     width: auto;
     margin-top: 225px;
     flex-direction: column;
+    height: auto;
   }
 
   .bloc3 img {
