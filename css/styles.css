@@ -286,6 +286,9 @@ footer {
 }
 
 .activity-columns {
+  flex-direction: column;
+  object-fit: cover;
+  display: flex;
 }
 
 .activity-card {
