@@ -13,7 +13,7 @@ body {
   display: flex;
   justify-content: center;
   flex-direction: column;
-  max-width: 1900px;
+  width: 1280px;
 }
 
 /*******NAVBAR********/
@@ -166,7 +166,7 @@ button {
 }
 
 .container {
-  width: 75%;
+  /* width: 75%; */
   background-color: #f5f5f5;
   border-radius: 20px;
   padding: 20px;
@@ -184,7 +184,7 @@ button {
 .container_1 {
   display: flex;
   flex-direction: column;
-  width: 25%;
+  /* width: 25%; */
   padding: 20px;
   background-color: #f5f5f5;
   border-radius: 20px;
@@ -193,13 +193,14 @@ button {
 }
 
 .card_1 {
+  display: inline-flex;
   background: #fff;
   border: 1px solid #f5f5f5;
   border-radius: 20px;
   padding: 5px;
   margin-bottom: 20px;
   box-sizing: border-box;
-  width: 73%;
+  /* width: 73%; */
   box-shadow: 10px 12px 28px -13px rgba(0, 0, 0, 0.62);
   -webkit-box-shadow: 10px 12px 28px -13px rgba(0, 0, 0, 0.62);
   -moz-box-shadow: 10px 12px 28px -13px rgba(0, 0, 0, 0.62);
@@ -255,9 +256,8 @@ button {
 
 footer {
   background-color: #f5f5f5;
-  margin-top: 30px;
   width: 100%;
-  margin-top: 100px;
+  margin-top: 20px;
 }
 
 .footerall {
@@ -290,16 +290,30 @@ footer {
   flex-direction: column;
   display: flex;
   width: 25%;
-  row-gap: 10px;
+  /* row-gap: 10px; */
 }
+
+.activity-columns > img {
+  height: 500px;
+}
+
 .card-60 {
   flex-direction: column;
-  height: 60%;
+  height: 300px;
+  padding-bottom: 50px;
+}
+
+.card-60 img {
+  height: 250px;
 }
 
 .card-40 {
   flex-direction: column;
-  height: 38%;
+  height: 350px;
+}
+
+.card-40 img {
+  height: 200px;
 }
 
 .activity-card-img {
@@ -309,7 +323,6 @@ footer {
 }
 
 .activity img {
-  height: 100%;
   width: 100%;
   border-top-left-radius: 40px;
   border-top-right-radius: 40px;
@@ -325,7 +338,7 @@ footer {
 .activity-card-title h5 {
   padding-left: 30px;
   padding-bottom: 10px;
-  font-size: 10px;
+  font-size: 16px;
   margin: 0;
   margin-top: 10px;
 }
