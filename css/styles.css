@@ -47,6 +47,26 @@ nav {
 
 .active {
   border-top: 5px solid #0065fc;
+  text-decoration: none;
+}
+.active a {
+  color: #0065fc;
+}
+
+.unactive a {
+  color: black;
+}
+
+.nav a {
+  text-decoration: none;
+}
+
+.unactive {
+  margin-top: 5px;
+  text-decoration: none;
+  color: black;
+  padding-left: 3px;
+  padding-right: 3px;
 }
 
 ul a:hover {
@@ -56,8 +76,13 @@ ul a:hover {
 .sub {
   font-weight: 600;
   color: #0065fc;
+  padding: 10px 15px 0px 15px;
 }
 
+.sub a {
+  color: #0065fc;
+  text-decoration: none;
+}
 /**********************/
 
 /*******Text********/
@@ -134,31 +159,19 @@ button {
   margin-left: 20px;
 }
 
-.fa-money-bill-wave-alt {
+.filter i {
   color: #0065fc;
   border-radius: 50%;
   background-color: #deebff;
   padding: 16px;
 }
 
-.fa-child {
-  color: #0065fc;
-  border-radius: 50%;
-  background-color: #deebff;
-  padding: 16px;
+.info {
+  font-size: 12px;
+  margin-bottom: 15px;
+  font-weight: normal;
 }
-.fa-heart {
-  color: #0065fc;
-  border-radius: 50%;
-  background-color: #deebff;
-  padding: 16px;
-}
-.fa-dog {
-  color: #0065fc;
-  border-radius: 50%;
-  background-color: #deebff;
-  padding: 16px;
-}
+
 /*******House********/
 .section {
   display: flex;
@@ -177,8 +190,23 @@ button {
   font-size: 15px;
 }
 
+/*********Les plus populaires**************/
+
+.container_1 .card_img img {
+  width: 100%;
+  height: 170px;
+  border-bottom-right-radius: 0px;
+  border-top-right-radius: 0px;
+  border-bottom-left-radius: 20px;
+}
+.container_1 .card_img {
+  width: 150px;
+}
+
 .container_1 h2 {
+  display: flex;
   font-size: 15px;
+  justify-content: start;
 }
 
 .container_1 {
@@ -190,6 +218,13 @@ button {
   border-radius: 20px;
   align-items: center;
   vertical-align: center;
+}
+
+.container_1 .card_body {
+  text-align: start;
+  font-size: 10px;
+  padding-left: 5px;
+  width: 70%;
 }
 
 .card_1 {
@@ -250,6 +285,8 @@ button {
   object-fit: cover;
   width: 100%;
   height: 200px;
+  border-bottom-left-radius: 0px;
+  border-bottom-right-radius: 0px;
 }
 
 /*******Footer********/
