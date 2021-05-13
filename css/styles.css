@@ -16,6 +16,9 @@ body {
   width: 1280px;
 }
 
+h2 {
+  font-size: 20px;
+}
 /*******NAVBAR********/
 header {
   display: flex;
@@ -186,11 +189,11 @@ button {
   margin-right: 20px;
 }
 
-.container h2 {
-  font-size: 15px;
-}
-
 /*********Les plus populaires**************/
+
+.fa-chart-line {
+  padding-left: 30px;
+}
 
 .container_1 .card_img img {
   width: 100%;
@@ -204,9 +207,7 @@ button {
 }
 
 .container_1 h2 {
-  display: flex;
-  font-size: 15px;
-  justify-content: start;
+  display: inline;
 }
 
 .container_1 {
@@ -217,7 +218,6 @@ button {
   background-color: #f5f5f5;
   border-radius: 20px;
   align-items: center;
-  vertical-align: center;
 }
 
 .container_1 .card_body {
@@ -307,6 +307,11 @@ footer {
 .footerall ul {
   text-decoration: none;
   list-style: none;
+  padding-left: 0;
+}
+
+.footerall li {
+  margin: 10px 0 0 0;
 }
 
 /*******Refonte Activité********/
