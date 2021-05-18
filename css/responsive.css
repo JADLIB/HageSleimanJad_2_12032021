@@ -146,7 +146,7 @@
     align-items: center;
   }
 
-  .container {
+  #container {
     order: 2;
     width: 100%;
     background-color: #ffffff;
@@ -162,7 +162,6 @@
     padding: 20px;
     margin-right: 0;
     margin-bottom: 10px;
-    width: auto;
     width: 100%;
   }
 
@@ -242,7 +241,7 @@
   /*******Activité********/
   /*********************/
 
-  .activity {
+  #activity {
     display: flex;
     flex-direction: column;
     height: auto;
@@ -257,12 +256,16 @@
     padding-bottom: 20px;
   }
 
-  .activity img {
-    height: 250px;
+  #activity img {
+    height: 200px;
   }
 
   .card-40 {
-    height: 300px;
+    height: 242px;
+  }
+
+  .card-60 {
+    height: 260px;
   }
 
   /**********FOOTER***********/
