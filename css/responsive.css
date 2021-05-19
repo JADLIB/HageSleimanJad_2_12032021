@@ -135,11 +135,6 @@
     border: none;
   }
 
-  i {
-    border-top-left-radius: 10px;
-    border-bottom-left-radius: 10px;
-  }
-
   .section {
     display: flex;
     flex-direction: column;
@@ -213,6 +208,27 @@
     width: 100%;
   }
 
+  .icon_popular {
+    display: flex;
+    flex-direction: column;
+    margin-top: auto;
+  }
+
+  /*******Searchbar********/
+
+  .search {
+    display: none;
+  }
+  .fas.fa-search {
+    display: flex;
+    color: #fff;
+    background-color: #0065fc;
+    padding: 15px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 0px;
+  }
   /*******Filter********/
 
   .filter {
@@ -277,5 +293,6 @@
     display: flex;
     flex-direction: column;
     margin-top: auto;
+    margin-left: 30px;
   }
 }
