@@ -72,12 +72,22 @@
 
   .active {
     display: flex;
-    border-bottom: 5px solid #0065fc;
+    border-bottom: 5px solid #f5f5f5;
     border-top: none;
     padding-bottom: 20px;
     padding-top: 20px;
     width: 45%;
     justify-content: center;
+  }
+
+  .active:hover {
+    border-bottom: 5px solid #0065fc;
+    border-top: none;
+  }
+
+  .unactive:hover {
+    border-bottom: 5px solid #0065fc;
+    border-top: none;
   }
 
   .active a {

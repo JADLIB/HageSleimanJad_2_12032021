@@ -48,10 +48,16 @@ nav {
   padding: 10px 15px 0px 15px;
 }
 
-.active {
+.active:hover {
   border-top: 5px solid #0065fc;
   text-decoration: none;
 }
+
+.unactive:hover {
+  border-top: 5px solid #0065fc;
+  text-decoration: none;
+}
+
 .active a {
   color: #0065fc;
 }
@@ -62,6 +68,10 @@ nav {
 
 .nav a {
   text-decoration: none;
+}
+
+.active {
+  margin-top: 5px;
 }
 
 .unactive {
@@ -185,7 +195,7 @@ button {
   padding-left: 5px;
 }
 
-/*******House********/
+/*******Hébergement********/
 .section {
   display: flex;
   flex-direction: row;
@@ -320,8 +330,7 @@ footer {
   margin: 10px 0 0 0;
 }
 
-/*******Refonte Activité********/
-/*******Refonte Activité********/
+/*******Activité********/
 
 #activity {
   display: flex;
@@ -338,7 +347,6 @@ footer {
   flex-direction: column;
   display: flex;
   width: 25%;
-  /* row-gap: 10px; */
 }
 
 .activity-columns > img {
