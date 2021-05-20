@@ -70,6 +70,20 @@
     justify-content: space-evenly;
   }
 
+  .nav {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    order: 2;
+    justify-content: space-evenly;
+    padding-bottom: 20px;
+  }
+
+  .nav div {
+    padding: 15px 10px 0px 10px;
+  }
+
+  /***************Menu Hover et barre de recherche*******/
   .active {
     display: flex;
     border-bottom: 5px solid #f5f5f5;
@@ -109,19 +123,6 @@
     padding-right: 30px;
   }
 
-  .nav div {
-    padding: 15px 10px 0px 10px;
-  }
-
-  .nav {
-    display: flex;
-    flex-wrap: wrap;
-    width: 100%;
-    order: 2;
-    justify-content: space-evenly;
-    padding-bottom: 20px;
-  }
-
   header {
     display: flex;
     flex-wrap: wrap;
@@ -144,6 +145,10 @@
     color: white;
     border: none;
   }
+
+  /*************************/
+  /*************************/
+  /*************************/
 
   .section {
     display: flex;
@@ -205,10 +210,20 @@
     box-sizing: border-box;
   }
 
-  .card_body {
+  .container_1 .card_body {
+    display: flex;
+    flex-direction: column;
     text-align: start;
-    font-size: 10px;
+    font-size: 14px;
     padding-left: 5px;
+    margin-left: 20px;
+  }
+
+  #container .card_body {
+    text-align: start;
+    font-size: 14px;
+    padding-left: 5px;
+    margin-left: 20px;
   }
 
   .card_img img {
@@ -219,9 +234,9 @@
   }
 
   .icon_popular {
-    display: flex;
+    display: inline;
     flex-direction: column;
-    margin-top: auto;
+    margin: auto 0 20px 5px;
   }
 
   /*******Searchbar********/
