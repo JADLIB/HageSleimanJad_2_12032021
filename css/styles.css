@@ -384,6 +384,7 @@ footer {
 #activity img {
   width: 100%;
   border-top-left-radius: 40px;
+
   border-top-right-radius: 40px;
   object-fit: cover;
 }
