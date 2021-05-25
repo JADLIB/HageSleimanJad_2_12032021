@@ -7,6 +7,8 @@
     justify-content: center;
     margin: 0;
     padding: 0;
+    width: 100%;
+    justify-content: center;
   }
   .logo {
     margin-right: auto;
@@ -72,7 +74,7 @@
 
   .nav {
     display: flex;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
     width: 100%;
     order: 2;
     justify-content: space-evenly;
@@ -81,6 +83,16 @@
 
   .nav div {
     padding: 15px 10px 0px 10px;
+  }
+
+  .active:hover {
+    border-top: 5px solid #0065fc;
+    text-decoration: none;
+  }
+
+  .unactive:hover {
+    border-top: 5px solid #0065fc;
+    text-decoration: none;
   }
 
   /***************Menu Hover et barre de recherche*******/
@@ -169,7 +181,7 @@
   .container_1 {
     background-color: #f5f5f5;
     border-radius: 15px;
-    padding: 20px;
+    padding: 10px;
     margin-right: 0;
     margin-bottom: 10px;
     width: 100%;
@@ -313,11 +325,13 @@
 
   footer {
     margin-top: auto;
+    width: 100%;
   }
   .footerall {
     display: flex;
     flex-direction: column;
     margin-top: auto;
-    margin-left: 30px;
+    margin-left: 10px;
+    width: 100%;
   }
 }
