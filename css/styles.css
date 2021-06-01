@@ -181,6 +181,11 @@ button {
   margin-left: 20px;
 }
 
+.filter button:hover {
+  background-color: #0065fc;
+  color: #fff;
+}
+
 .filter i {
   color: #0065fc;
   border-radius: 50%;
@@ -215,6 +220,8 @@ button {
 
 #container img {
   border-radius: 15px;
+  border-bottom-right-radius: 0px;
+  border-bottom-left-radius: 0px;
 }
 
 /*********Les plus populaires**************/
